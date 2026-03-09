@@ -61,3 +61,51 @@ Typical daily process automated by the script:
 ---
 
 ## Project Structure
+finance_automation/
+└── eod_breaks_report_automation/
+├── report_automation.py
+└── README.md
+
+
+## Example Output
+
+The script generates an email similar to:
+
+Daily Cash EOD Report
+
+MTM Breaks:
+[List of MTM discrepancies]
+
+Cash Reconciliation Breaks:
+[List of cash reconciliation differences]
+
+Reconciliation Breaks:
+[List of settlement or reconciliation exceptions]
+
+Supporting files are automatically attached.
+
+---
+
+## Disclaimer
+
+This repository contains a **sanitized example** of an internal reporting workflow automation project.
+
+All internal infrastructure references, system names, file paths, and sensitive identifiers have been removed or replaced with generic placeholders.
+
+The code demonstrates the **automation logic and workflow design**, not the original production environment.
+
+---
+
+## Motivation
+
+This project was created to:
+
+- reduce manual operational reporting tasks
+- improve reporting consistency
+- demonstrate Python automation in a financial environment
+
+It is part of a broader set of finance-related Python projects covering:
+
+- financial automation
+- valuation models
+- quantitative analysis

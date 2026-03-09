@@ -1,6 +1,6 @@
 # Marcelo Almeida
 
-Financial Markets Analyst | CFA Level I Candidate
+Financial Markets Professional | CFA Level I Candidate
 
 MBA graduate with experience in securities financing and collateral operations at BNP Paribas. Interested in asset management, financial markets, and workflow automation using Python.
 

@@ -42,7 +42,7 @@ Typical daily process automated by the script:
 2. Extract exception information from incoming operational emails
 3. Consolidate key break indicators:
    - MTM breaks
-   - Cash reconciliation breaks
+   - Cashpool and ctpy balance breaks
    - Reconciliation breaks
 4. Generate a standardized end-of-day control report
 5. Prepare and display the email for final review before sending

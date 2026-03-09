@@ -71,8 +71,8 @@ Reconciliation_email = find_emails(
 
 if MTM_email:
     mtm_text = MTM_email.HTMLBody
-    start = mtm_text.find("Please find")
-    cutoff = mtm_text.lower().find("kind regards")
+    start = mtm_text.find("Initial text to ignore")
+    cutoff = mtm_text.lower().find("final text to ignore")
     if start != -1 and cutoff != -1:
         mtm_text = mtm_text[start:cutoff]
     else:
@@ -80,8 +80,8 @@ if MTM_email:
 
 if Cashpool_email:
     cashpool_text = Cashpool_email.HTMLBody
-    start = cashpool_text.find("Below is the")
-    cutoff = cashpool_text.lower().find("regards")
+    start = cashpool_text.find("Initial text to ignore")
+    cutoff = cashpool_text.lower().find("final text to ignore")
     if start != -1 and cutoff != -1:
         cashpool_text = cashpool_text[start:cutoff]
     else:
@@ -89,8 +89,8 @@ if Cashpool_email:
 
 if Reconciliation_email:
     reconciliation_text = Reconciliation_email.HTMLBody
-    start = reconciliation_text.find("Below is the")
-    cutoff = reconciliation_text.lower().find("regards")
+    start = reconciliation_text.find("Initial text to ignore")
+    cutoff = reconciliation_text.lower().find("final text to ignore")
     if start != -1 and cutoff != -1:
         reconciliation_text = reconciliation_text[start:cutoff]
     else:

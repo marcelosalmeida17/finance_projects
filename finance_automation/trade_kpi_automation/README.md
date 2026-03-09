@@ -5,7 +5,7 @@ Python automation script for daily trading activity KPIs.
 ## Overview
 This script processes trading activity files and automatically generates daily KPI reports.
 
-It reads trading and cash flow data, classifies transactions by type (bilateral, triparty, cash), and produces a summarized KPI output.
+It reads trading and cash flow data, classifies transactions by type (bilateral, triparty, cash), sums all and produces a summarized KPI output showing all Alive trades.
 
 ## Features
 - Automated daily file detection based on date
